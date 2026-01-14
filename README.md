@@ -1,4 +1,4 @@
-# VintaSoft Console SANE Image Scanning Demo
+﻿# VintaSoft Console SANE Image Scanning Demo
 
 This .NET console project uses <a href="https://www.vintasoft.com/vstwain-dotnet-index.html">VintaSoft TWAIN .NET SDK</a> and demonstrates how to acquire images from SANE image scanner in console application in Linux.
 

@@ -15,12 +15,12 @@
 		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
 		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>    
 
-		<Version>15.3.7.1</Version>
+		<Version>15.3.8.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Vintasoft.Shared" Version="4.6.1.1" />
-		<PackageReference Include="Vintasoft.Sane" Version="15.3.7.1" />
+		<PackageReference Include="Vintasoft.Sane" Version="15.3.8.1" />
 	</ItemGroup>
 
 	<ItemGroup>

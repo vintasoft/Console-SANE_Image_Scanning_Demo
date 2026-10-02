@@ -154,6 +154,9 @@ namespace SaneConsoleDemo
         static int SelectSaneScanResolution(SaneLocalDevice device)
         {
             int[] supportedScanResolutions = device.GetSupportedScanResolutions();
+            if (supportedScanResolutions.Length == 0)
+                return 0;
+
             Console.WriteLine("Scan resolutions:");
             for (int i = 0; i < supportedScanResolutions.Length; i++)
             {

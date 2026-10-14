@@ -9,6 +9,9 @@ namespace SaneConsoleDemo
 
         public static int Main(string[] args)
         {
+            // register the evaluation license for VintaSoft Twain .NET SDK
+            Vintasoft.Sane.SaneGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
+
             using (SaneLocalDeviceManager deviceManager = new SaneLocalDeviceManager())
             {
                 deviceManager.Open();
